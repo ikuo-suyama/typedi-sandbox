@@ -14,7 +14,11 @@
     }
   },
   "lint-staged": {
-    "*.{ts,js,tsx,jsx}": ["eslint --fix", "jest --coverage --findRelatedTests", "git add"]
+    "*.{ts,js,tsx,jsx}": [
+      "eslint --fix",
+      "jest --coverage --findRelatedTests",
+      "git add"
+    ]
   },
   "keywords": [],
   "author": "github.com/martingaston",
@@ -32,5 +36,9 @@
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.8.0"
   }
 }
